@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MovieViewerPartA_235008L</string>
+    <string name="login_name">Login name</string>
+    <string name="enter_login_name_here">Enter login name here</string>
+    <string name="password">Password</string>
+    <string name="enter_password_here">Enter password here</string>
+    <string name="verify">Verify</string>
+    <string name="enter_verification_code_here">Enter verification code here</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="enter_email_here">Enter Email here</string>
+    <string name="admin_number">Admin Number</string>
+    <string name="enter_admin_number_here">Enter admin number here</string>
+    <string name="pem_grp">Pem Grp</string>
+    <string name="enter_pem_grp_here">Enter Pem grp here</string>
+    <string name="noitems">Empty</string>
+</resources>

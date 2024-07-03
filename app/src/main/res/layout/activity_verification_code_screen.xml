@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".VerificationCodeScreen">
+
+    <TextView
+        android:id="@+id/VerificationCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verification_code"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/VerificationCodeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_verification_code_here"
+        android:inputType="number"
+        android:textSize="15dp"
+        android:layout_below="@+id/VerificationCode"/>
+
+    <Button
+        android:id="@+id/VerifyBtn"
+        android:text="@string/verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/VerificationCodeInput" />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".RegistrationScreen">
+
+    <TextView
+        android:id="@+id/LoginName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_name"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/LoginNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_login_name_here"
+        android:textSize="15dp"
+        android:layout_below="@+id/LoginName" />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="20dp"
+        android:layout_below="@+id/LoginNameInput"/>
+
+    <EditText
+        android:id="@+id/PasswordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_password_here"
+        android:inputType="textPassword"
+        android:textSize="15dp"
+        android:layout_below="@+id/Password"/>
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="20dp"
+        android:layout_below="@+id/PasswordInput"/>
+
+    <EditText
+        android:id="@+id/EmailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_email_here"
+        android:textSize="15dp"
+        android:layout_below="@+id/Email"/>
+
+    <TextView
+        android:id="@+id/AdminNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_number"
+        android:textSize="20dp"
+        android:layout_below="@+id/EmailInput"/>
+
+    <EditText
+        android:id="@+id/AdminNumInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_admin_number_here"
+        android:textSize="15dp"
+        android:layout_below="@+id/AdminNum"/>
+
+    <TextView
+        android:id="@+id/PemGrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pem_grp"
+        android:textSize="20dp"
+        android:layout_below="@+id/AdminNumInput"/>
+
+    <EditText
+        android:id="@+id/PemGrpInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_pem_grp_here"
+        android:textSize="15dp"
+        android:layout_below="@+id/PemGrp"/>
+
+    <Button
+        android:id="@+id/RegisterBtn"
+        android:text="@string/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PemGrpInput" />
+
+</RelativeLayout>
